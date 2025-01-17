@@ -1,17 +1,19 @@
 ## Starting Up a React App
-     First, make sure you're running a compatible version of Node. You should be using Node 16, since Node 17 has some compatibility issues with several JavaScript libraries. To check your Node version, run the following, and verify that Node 16.x.x is installed and is the default version (the -> indicates the default):
+     First, make sure you're running a compatible version of Node. You should be using Node 16, 17 or even higher.
+     To check your Node version, run the following, and verify that Node 16.
+     is installed and is the default version (the -> indicates the default):
 
-$ nvm list
+               $ nvm list
 
-->     v16.13.0
-        v17.0.1
-         system
+->               v16.13.0
+                  v17.0.1
+                    system
 default -> 16 (-> v16.13.0)
 If it's not, you can install it and set it as the default with the following commands:
 
-$ nvm install 16
-$ nvm alias default 16
-$ nvm use 16
+     $ nvm install 16
+     $ nvm alias default 16
+     $ nvm use 16
  Fork and clone this lesson onto your computer, then navigate into the lesson's directory and run:
 
 $ npm install
