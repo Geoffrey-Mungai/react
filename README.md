@@ -24,7 +24,7 @@ Next, we need to start up a server for the app to run on:
 $ npm start
 This will host the app and open a browser window to display it. If the server started correctly but the browser doesn't open, you can use the links that appear in the terminal to access the app. They should look something like this:
 
-Local:            http://localhost:3000
+Local:            http://localhost:5173
 On Your Network:  http://192.168.1.5:3000
 
 You can use the Local link to open the app in your own browser. The second is for any other computers on your network that you want to access your app from (this is particularly useful if you want to test out your app in a mobile browser on your phone).
